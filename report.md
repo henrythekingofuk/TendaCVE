@@ -1,5 +1,9 @@
 # Tenda AC19: Stack-Based Buffer Overflow (CWE-121) in `formSetFirewallCfg` (`/goform/SetFirewallCfg` / `firewallEn`)
 
+Discovered and reported by: Zeming Hu
+Contact: henrythekingofuk@gmail.com
+Discovery date: 7 October 2026
+
 ## Summary
 
 Tenda AC19 web management interface (`formSetFirewallCfg` / `/goform/SetFirewallCfg`) is vulnerable to a stack-based buffer overflow via an overly long `firewallEn` parameter, allowing an unauthenticated attacker to crash the httpd service or potentially achieve arbitrary code execution.
@@ -108,3 +112,7 @@ After the request is sent, the router firmware crashes and forces a reboot; the 
 
 **Observed result:**
 ![](assets/image-20260908180137-tisooi4.png)
+
+## Credits
+
+This vulnerability was discovered and reported by **Hu Zeming**.
