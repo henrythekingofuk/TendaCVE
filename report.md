@@ -115,4 +115,4 @@ After the request is sent, the router firmware crashes and forces a reboot; the 
 
 ## Credits
 
-This vulnerability was discovered and reported by **Hu Zeming**.
+This vulnerability was discovered and reported by **Zeming Hu**.
